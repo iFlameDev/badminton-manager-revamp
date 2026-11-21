@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-500: #10b981;
+  --color-blue-500: #3b82f6;
+  --color-slate-900: #0f172a;
+}
+
+/* Custom Utilities based on Vanilla CSS from HTML */
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
